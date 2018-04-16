@@ -1,0 +1,430 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Marvel 📼 Timeline</title>
+<meta charset="UTF-16">
+<link href="https://fonts.googleapis.com/css?family=Coda:800" rel="stylesheet">
+<style type="text/css">
+    /* Movie Posters */
+    :root {
+        --poster1: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_SY1000_CR0,0,640,1000_AL_.jpg);
+        --poster2: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster3: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster4: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_.jpg);
+        --poster5: url(https://images-na.ssl-images-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster6: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg);
+        --poster7: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzMjEzMjY1M15BMl5BanBnXkFtZTcwNTMxOTYyOQ@@._V1_SY1000_SX700_AL_.jpg);
+        --poster8: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_SY1000_SX700_AL_.jpg);
+        --poster9: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2NzUzNzQwNl5BMl5BanBnXkFtZTgwMDQ1MDkwMTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster10: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster11: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster12: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SY1000_SX675_AL_.jpg);
+        --poster13: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_.jpg);
+        --poster14: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster15: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster16: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_SY1000_CR0,0,658,1000_AL_.jpg);
+        --poster17: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster18: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+        --poster19: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MjA1OTMxOV5BMl5BanBnXkFtZTgwMzM1NDcyNDM@._V1_.jpg);
+        --poster20: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM1NDEzMzgxMl5BMl5BanBnXkFtZTgwNzg5NTk2NDM@._V1_SY1000_SX675_AL_.jpg);
+        --poster21: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_.jpg);
+
+        --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        --ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+        --ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        --ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+        --ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+        --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+        --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+        --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+        --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+        --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+        --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+        --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+        --ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+        --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+        --ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    }
+
+    body {
+        background-color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: wheat;
+    }
+    header {
+        margin: 40px 0;
+    }
+    header div {
+        border: 3px solid white;
+        padding: 4px 5px;
+        width: 520px;
+        position: fixed;
+        left: 50%;
+        margin-left: -260px;
+    }
+    header div h1 {
+        font-family: 'Coda', cursive;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: white;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 0;
+    }
+    a {
+        color: thistle;
+        text-decoration: none;
+    }
+    .movies {
+        display: grid;
+        padding: 100px 0;
+        width: calc(380px * 21);
+        grid-template-columns: repeat(21, 1fr);
+    }
+    .movies:hover span:not(:hover) {
+        opacity: 0.5;
+    }
+    .movies article {
+        transition: opacity 0.2s;
+        padding: 60px;
+    }
+    .movies article div {
+        width: 320px;
+        height: 500px;
+        border-radius: 15px;
+        border: 1px solid dimgray;
+        display: flex;
+        flex-direction: column-reverse;
+        background-size: cover;
+    }
+    .movies article:nth-child(1) div{
+        background-image: var(--poster1);
+    }
+    .movies article:nth-child(2) div{
+        background-image: var(--poster2);
+    }
+    .movies article:nth-child(3) div{
+        background-image: var(--poster3);
+    }
+    .movies article:nth-child(4) div{
+        background-image: var(--poster4);
+    }
+    .movies article:nth-child(5) div{
+        background-image: var(--poster5);
+    }
+    .movies article:nth-child(6) div{
+        background-image: var(--poster6);
+    }
+    .movies article:nth-child(7) div{
+        background-image: var(--poster7);
+    }
+    .movies article:nth-child(8) div{
+        background-image: var(--poster8);
+    }
+    .movies article:nth-child(9) div{
+        background-image: var(--poster9);
+    }
+    .movies article:nth-child(10) div {
+        background-image: var(--poster10);
+    }
+    .movies article:nth-child(11) div {
+        background-image: var(--poster11);
+    }
+    .movies article:nth-child(12) div {
+        background-image: var(--poster12);
+    }
+    .movies article:nth-child(13) div {
+        background-image: var(--poster13);
+    }
+    .movies article:nth-child(14) div {
+        background-image: var(--poster14);
+    }
+    .movies article:nth-child(15) div {
+        background-image: var(--poster15);
+    }
+    .movies article:nth-child(16) div {
+        background-image: var(--poster16);
+    }
+    .movies article:nth-child(17) div {
+        background-image: var(--poster17);
+    }
+    .movies article:nth-child(18) div {
+        background-image: var(--poster18);
+    }
+    .movies article:nth-child(19) div {
+        background-image: var(--poster19);
+    }
+    .movies article:nth-child(20) div {
+        background-image: var(--poster20);
+    }
+    .movies article:nth-child(21) div {
+        background-image: var(--poster21);
+    }
+
+    .movies article div summary {
+        position: relative;
+        bottom: 0px;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        padding: 10px;
+    }
+    .movies article div h3 {
+        font-family: 'Coda', cursive;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: white;
+        font-size: 1rem;
+        padding: 10px;
+        margin: 0;
+    }
+    .movies article div p{
+        text-shadow: 0 2px white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: right;
+        padding: 10px;
+        margin: 0 20px 0 0;
+    }
+    .movies article div a{
+        font-size: 1rem;
+        font-weight: normal;
+        padding: 10px;
+        margin: 0;
+    }
+    .numbering {
+        color: white;
+        font-family: 'Coda', cursive;
+        font-weight: bold;
+        padding: 20px 24px;
+        background: red;
+        position: relative;
+        left: 0;
+        top: 43px;
+        border-top-left-radius: 14px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Marvel Movie Timeline</h1>
+        </div>
+    </header>
+    <section class="movies">
+        <article>
+            <span class="numbering">01</span>
+            <div>
+                <summary>
+                    <h3>Captain America: The First Avenger</h3>
+                    <p>2011</p>
+                    <a href="http://www.imdb.com/title/tt0458339/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">02</span>
+            <div>
+                <summary>
+                    <h3>Iron Man</h3>
+                    <p>2008</p>
+                    <a href="http://www.imdb.com/title/tt0371746/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">03</span>
+            <div>
+                <summary>
+                    <h3>The Incredible Hulk</h3>
+                    <p>2008</p>
+                    <a href="http://www.imdb.com/title/tt0800080/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">04</span>
+            <div>
+                <summary>
+                    <h3>Iron Man 2</h3>
+                    <p>2010</p>
+                    <a href="http://www.imdb.com/title/tt1228705/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">5</span>
+            <div>
+                <summary>
+                    <h3>Thor</h3>
+                    <p>2011</p>
+                    <a href="http://www.imdb.com/title/tt0800369/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">06</span>
+            <div>
+                <summary>
+                    <h3>The Avengers</h3>
+                    <p>2012</p>
+                    <a href="http://www.imdb.com/title/tt0848228/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">07</span>
+            <div>
+                <summary>
+                    <h3>Iron Man 3</h3>
+                    <p>2013</p>
+                    <a href="http://www.imdb.com/title/tt1300854/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">08</span>
+            <div>
+                <summary>
+                    <h3>Thor – The Dark World</h3>
+                    <p>2013</p>
+                    <a href="http://www.imdb.com/title/tt1981115/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">09</span>
+            <div>
+                <summary>
+                    <h3>Captain America – The Winter Soldier</h3>
+                    <p>2014</p>
+                    <a href="http://www.imdb.com/title/tt1843866/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">10</span>
+            <div>
+                <summary>
+                    <h3>Guardiens of the Galaxy</h3>
+                    <p>2014</p>
+                    <a href="http://www.imdb.com/title/tt2015381/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">11</span>
+            <div>
+                <summary>
+                    <h3>Guardiens of the Galaxy Vol. 2</h3>
+                    <p>2017</p>
+                    <a href="http://www.imdb.com/title/tt2015381/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">12</span>
+            <div>
+                <summary>
+                    <img src="" alt="The Avengers 2 – Age of Ultron Movie Poster" />
+                    <h3>The Avengers 2 – Age of Ultron</h3>
+                    <p>2015</p>
+                    <a href="http://www.imdb.com/title/tt2395427/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">13</span>
+            <div>
+                <summary>
+                    <h3>Ant-Man</h3>
+                    <p>2015</p>
+                    <a href="http://www.imdb.com/title/tt0478970/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">14</span>
+            <div>
+                <summary>
+                    <h3>The First Avenger – Civil War</h3>
+                    <p>2016</p>
+                    <a href="http://www.imdb.com/title/tt3498820/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">15</span>
+            <div>
+                <summary>
+                    <h3>Doctor Strange</h3>
+                    <p>2016</p>
+                    <a href="http://www.imdb.com/title/tt1211837/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">16</span>
+            <div>
+                <summary>
+                    <h3>Spider-Man – Homecoming</h3>
+                    <p>2017</p>
+                    <a href="http://www.imdb.com/title/tt2250912/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">17</span>
+            <div>
+                <summary>
+                    <h3>Thor – Tag der Entscheidung</h3>
+                    <p>2017</p>
+                    <a href="http://www.imdb.com/title/tt3501632/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">18</span>
+            <div>
+                <summary>
+                    <h3>Black Panther</h3>
+                    <p>2018</p>
+                    <a href="http://www.imdb.com/title/tt1825683/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">19</span>
+            <div>
+                <summary>
+                    <h3>The Avengers – Infinity War</h3>
+                    <p>2018</p>
+                    <a href="http://www.imdb.com/title/tt4154756/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">20</span>
+            <div>
+                <summary>
+                    <h3>Ant-Man and the Wasp</h3>
+                    <p>2018</p>
+                    <a href="http://www.imdb.com/title/tt5095030/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+        <article>
+            <span class="numbering">21</span>
+            <div>
+                <summary>
+                    <h3>Captain Marvel</h3>
+                    <p>2019</p>
+                    <a href="http://www.imdb.com/title/tt4154664/" target="_blank">IMDB Movie page</a>
+                </summary>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
