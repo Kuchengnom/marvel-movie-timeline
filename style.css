@@ -1,222 +1,265 @@
-    /* Movie Posters */
-    :root {
-        --posterFirstAvenger: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_SY1000_CR0,0,640,1000_AL_.jpg);
-        --posterIronMan: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterHulk: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterIronMan2: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_.jpg);
-        --posterThor: url(https://images-na.ssl-images-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterAvengers: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg);
-        --posterIronMan3: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzMjEzMjY1M15BMl5BanBnXkFtZTcwNTMxOTYyOQ@@._V1_SY1000_SX700_AL_.jpg);
-        --posterThorDarkWorld: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_SY1000_SX700_AL_.jpg);
-        --posterWinterSoldier: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2NzUzNzQwNl5BMl5BanBnXkFtZTgwMDQ1MDkwMTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterGuardiens: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterGuardiens2: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterAgeOfUltron: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SY1000_SX675_AL_.jpg);
-        --posterAntman: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_.jpg);
-        --posterCivilWar: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterDoctorStrange: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterSpidermanHome: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_SY1000_CR0,0,658,1000_AL_.jpg);
-        --posterRagnarok: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterBlackPanther: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterInfinitiyWar: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MjA1OTMxOV5BMl5BanBnXkFtZTgwMzM1NDcyNDM@._V1_.jpg);
-        --posterAntmanWasp: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM1NDEzMzgxMl5BMl5BanBnXkFtZTgwNzg5NTk2NDM@._V1_SY1000_SX675_AL_.jpg);
-        --posterCaptainMarvel: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_.jpg);
-        --posterEndgame: url(https://m.media-amazon.com/images/M/MV5BMTkxNTQzNTg4Nl5BMl5BanBnXkFtZTgwMzYzNDQ2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
-        --posterSpidermanFar: url(https://m.media-amazon.com/images/M/MV5BMjE1MzE5MjczMl5BMl5BanBnXkFtZTgwOTgwMTgxNzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+/* Movie Posters */
+:root {
+  --posterFirstAvenger: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_SY1000_CR0,0,640,1000_AL_.jpg);
+  --posterIronMan: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterHulk: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterIronMan2: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_.jpg);
+  --posterThor: url(https://images-na.ssl-images-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterAvengers: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg);
+  --posterIronMan3: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzMjEzMjY1M15BMl5BanBnXkFtZTcwNTMxOTYyOQ@@._V1_SY1000_SX700_AL_.jpg);
+  --posterThorDarkWorld: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_SY1000_SX700_AL_.jpg);
+  --posterWinterSoldier: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2NzUzNzQwNl5BMl5BanBnXkFtZTgwMDQ1MDkwMTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterGuardiens: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterGuardiens2: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterAgeOfUltron: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SY1000_SX675_AL_.jpg);
+  --posterAntman: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_.jpg);
+  --posterCivilWar: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterDoctorStrange: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterSpidermanHome: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_SY1000_CR0,0,658,1000_AL_.jpg);
+  --posterRagnarok: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterBlackPanther: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterInfinitiyWar: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MjA1OTMxOV5BMl5BanBnXkFtZTgwMzM1NDcyNDM@._V1_.jpg);
+  --posterAntmanWasp: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjM1NDEzMzgxMl5BMl5BanBnXkFtZTgwNzg5NTk2NDM@._V1_SY1000_SX675_AL_.jpg);
+  --posterCaptainMarvel: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_.jpg);
+  --posterEndgame: url(https://m.media-amazon.com/images/M/MV5BMTkxNTQzNTg4Nl5BMl5BanBnXkFtZTgwMzYzNDQ2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterSpidermanFar: url(https://m.media-amazon.com/images/M/MV5BMjE1MzE5MjczMl5BMl5BanBnXkFtZTgwOTgwMTgxNzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterBlackWidow: url(https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterShangChi: url(https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterEternals: url(https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterSpidermanNoWayHome: url(https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterDoctorStrange2: url(https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterThorLove: url(https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterWakandaForever: url(https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterQuantumania: url(https://m.media-amazon.com/images/M/MV5BODZhNzlmOGItMWUyYS00Y2Q5LWFlNzMtM2I2NDFkM2ZkYmE1XkEyXkFqcGdeQXVyMTU5OTA4NTIz._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterGuardians3: url(https://m.media-amazon.com/images/M/MV5BMDgxOTdjMzYtZGQxMS00ZTAzLWI4Y2UtMTQzN2VlYjYyZWRiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+  --posterMarvels: url(https://m.media-amazon.com/images/M/MV5BM2U2YWU5NWMtOGI2Ni00MGMwLWFkNjItMjgyZWMxNjllZGMxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
 
-        --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
-        --ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-        --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
-        --ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-        --ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
-        --ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
-        --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
-        --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
-        --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
-        --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
-        --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
-        --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
-        --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
-        --ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
-        --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
-        --ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    }
+  --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  --ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  --ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  --ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  --ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+  --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+  --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+  --ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
 
-    body {
-        background-color: black;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        color: wheat;
-    }
-    header div {
-        border: 3px solid white;
-        padding: 4px 5px;
-    }
-    @media only screen and (min-width: 520px) {
-        header {
-            margin: 40px auto;
-            width: 520px;
-        }
-        header div {
-            border: 3px solid white;
-            padding: 4px 5px;
-            width: 520px;
-        }
-      }
-    header div h1 {
-        font-family: 'Coda', cursive;
-        text-transform: uppercase;
-        font-weight: 800;
-        color: white;
-        font-size: 2.5rem;
-        text-align: center;
-        padding: 0;
-    }
-    a {
-        color: thistle;
-        text-decoration: none;
-    }
-    .movies {
-        display: grid;
-        grid-row-gap: 10px;
-        grid-column-gap: 40px;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        justify-items: center;
-    }
-    
-    .movies:hover span:not(:hover) {
-        opacity: 0.5;
-    }
-    .movies article {
-        transition: opacity 0.2s;
-    }
-    .movies article div {
-        width: 320px;
-        height: 500px;
-        border-radius: 15px;
-        border: 1px solid black;
-        display: flex;
-        flex-direction: column-reverse;
-        background-size: cover;
-        box-shadow: 0 0 10px 0 rgba(255,227,170,0.30);
-    }
-    @media only screen and (max-width: 500px) {
-        .movies article div {
-            width: 100vw;
-            height: 500px;
-        }
-      }
-    .movies article:nth-child(1) div{
-        background-image: var(--posterFirstAvenger);
-    }
-    .movies article:nth-child(2) div{
-        background-image: var(--posterCaptainMarvel);
-    }
-    .movies article:nth-child(3) div{
-        background-image: var(--posterIronMan);
-    }
-    .movies article:nth-child(4) div{
-        background-image: var(--posterIronMan2);
-    }
-    .movies article:nth-child(5) div{
-        background-image: var(--posterHulk);
-    }
-    .movies article:nth-child(6) div{
-        background-image: var(--posterThor);
-    }
-    .movies article:nth-child(7) div{
-        background-image: var(--posterAvengers);
-    }
-    .movies article:nth-child(8) div{
-        background-image: var(--posterIronMan3);
-    }
-    .movies article:nth-child(9) div{
-        background-image: var(--posterThorDarkWorld);
-    }
-    .movies article:nth-child(10) div {
-        background-image: var(--posterWinterSoldier);
-    }
-    .movies article:nth-child(11) div {
-        background-image: var(--posterGuardiens);
-    }
-    .movies article:nth-child(12) div {
-        background-image: var(--posterGuardiens2);
-    }
-    .movies article:nth-child(13) div {
-        background-image: var(--posterAgeOfUltron);
-    }
-    .movies article:nth-child(14) div {
-        background-image: var(--posterAntman);
-    }
-    .movies article:nth-child(15) div {
-        background-image: var(--posterFirstAvenger);
-    }
-    .movies article:nth-child(16) div {
-        background-image: var(--posterDoctorStrange);
-    }
-    .movies article:nth-child(17) div {
-        background-image: var(--posterSpidermanHome);
-    }
-    .movies article:nth-child(18) div {
-        background-image: var(--posterBlackPanther);
-    }
-    .movies article:nth-child(19) div {
-        background-image: var(--posterRagnarok);
-    }
-    .movies article:nth-child(20) div {
-        background-image: var(--posterInfinitiyWar);
-    }
-    .movies article:nth-child(21) div {
-        background-image: var(--posterAntmanWasp);
-    }
-    .movies article:nth-child(22) div {
-        background-image: var(--posterEndgame);
-    }
-    .movies article:nth-child(23) div {
-        background-image: var(--posterSpidermanHome);
-    }
+body {
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  color: wheat;
+}
+header div {
+  border: 3px solid white;
+  padding: 4px 5px;
+}
+@media only screen and (min-width: 520px) {
+  header {
+    margin: 40px auto;
+    width: 520px;
+  }
+  header div {
+    border: 3px solid white;
+    padding: 4px 5px;
+    width: 520px;
+  }
+}
+header div h1 {
+  font-family: 'Coda', cursive;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0;
+}
+a {
+  color: thistle;
+  text-decoration: none;
+}
+.movies {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center;
+}
 
-    .movies article div summary {
-        position: relative;
-        bottom: 0px;
-        background: rgba(0, 0, 0, 0.7);
-        width: 100%;
-        padding: 10px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    .movies article div h3 {
-        font-family: 'Coda', cursive;
-        text-transform: uppercase;
-        font-weight: 800;
-        color: white;
-        font-size: 1rem;
-        padding: 10px;
-        margin: 0;
-    }
-    .movies article div p{
-        text-shadow: 0 2px white;
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-align: right;
-        padding: 10px;
-        margin: 0 20px 0 0;
-    }
-    .movies article div a{
-        font-size: 1rem;
-        font-weight: normal;
-        padding: 10px;
-        margin: 0;
-    }
-    .numbering {
-        color: white;
-        font-family: 'Coda', cursive;
-        font-weight: bold;
-        padding: 20px 24px;
-        background: red;
-        position: relative;
-        left: 0;
-        top: 43px;
-        border-top-left-radius: 14px;
-    }
+.movies:hover span:not(:hover) {
+  opacity: 0.5;
+}
+.movies article {
+  transition: opacity 0.2s;
+}
+.movies article div {
+  width: 320px;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+  box-shadow: 0 0 10px 0 rgba(255, 227, 170, 0.3 );
+}
+@media only screen and (max-width: 500px) {
+  .movies article div {
+    width: 100vw;
+    height: 500px;
+  }
+}
+
+.movies article:nth-child(1) div {
+  background-image: var(--posterFirstAvenger);
+}
+.movies article:nth-child(2) div {
+  background-image: var(--posterCaptainMarvel);
+}
+.movies article:nth-child(3) div {
+  background-image: var(--posterIronMan);
+}
+.movies article:nth-child(4) div {
+  background-image: var(--posterIronMan2);
+}
+.movies article:nth-child(5) div {
+  background-image: var(--posterHulk);
+}
+.movies article:nth-child(6) div {
+  background-image: var(--posterThor);
+}
+.movies article:nth-child(7) div {
+  background-image: var(--posterAvengers);
+}
+.movies article:nth-child(8) div {
+  background-image: var(--posterIronMan3);
+}
+.movies article:nth-child(9) div {
+  background-image: var(--posterThorDarkWorld);
+}
+.movies article:nth-child(10) div {
+  background-image: var(--posterWinterSoldier);
+}
+.movies article:nth-child(11) div {
+  background-image: var(--posterGuardiens);
+}
+.movies article:nth-child(12) div {
+  background-image: var(--posterGuardiens2);
+}
+.movies article:nth-child(13) div {
+  background-image: var(--posterAgeOfUltron);
+}
+.movies article:nth-child(14) div {
+  background-image: var(--posterAntman);
+}
+.movies article:nth-child(15) div {
+  background-image: var(--posterCivilWar);
+}
+.movies article:nth-child(16) div {
+  background-image: var(--posterDoctorStrange);
+}
+.movies article:nth-child(17) div {
+  background-image: var(--posterSpidermanHome);
+}
+.movies article:nth-child(18) div {
+  background-image: var(--posterBlackPanther);
+}
+.movies article:nth-child(19) div {
+  background-image: var(--posterRagnarok);
+}
+.movies article:nth-child(20) div {
+  background-image: var(--posterInfinitiyWar);
+}
+.movies article:nth-child(21) div {
+  background-image: var(--posterAntmanWasp);
+}
+.movies article:nth-child(22) div {
+  background-image: var(--posterEndgame);
+}
+.movies article:nth-child(23) div {
+  background-image: var(--posterSpidermanFar);
+}
+.movies article:nth-child(24) div {
+  background-image: var(--posterBlackWidow);
+}
+.movies article:nth-child(25) div {
+  background-image: var(--posterShangChi);
+}
+.movies article:nth-child(26) div {
+  background-image: var(--posterEternals);
+}
+.movies article:nth-child(27) div {
+  background-image: var(--posterSpidermanNoWayHome);
+}
+.movies article:nth-child(28) div {
+  background-image: var(--posterDoctorStrange2);
+}
+.movies article:nth-child(29) div {
+  background-image: var(--posterThorLove);
+}
+.movies article:nth-child(30) div {
+  background-image: var(--posterWakandaForever);
+}
+.movies article:nth-child(31) div {
+  background-image: var(--posterQuantumania);
+}
+.movies article:nth-child(32) div {
+  background-image: var(--posterGuardians3);
+}
+.movies article:nth-child(33) div {
+  background-image: var(--posterMarvels);
+}
+
+.movies article div summary {
+  position: relative;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.movies article div h3 {
+  font-family: 'Coda', cursive;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0;
+}
+.movies article div p {
+  text-shadow: 0 2px white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  margin: 0 20px 0 0;
+}
+.movies article div a {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 10px;
+  margin: 0;
+}
+.numbering {
+  color: white;
+  font-family: 'Coda', cursive;
+  font-weight: bold;
+  padding: 20px 24px;
+  background: red;
+  position: relative;
+  left: 0;
+  top: 43px;
+  border-top-left-radius: 14px;
+}
